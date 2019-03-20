@@ -1,3 +1,4 @@
 f = open("challenge2.txt", "r+")
-f.write("Bye Line 1\n")
+f.seek(13)
+f.write("\nSeeya 3\n")
 f.close()
