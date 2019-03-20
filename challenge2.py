@@ -1,4 +1,3 @@
-f = open("challenge2.txt", "r+")
-f.seek(13)
-f.write("\nSeeya 3\n")
+f = open("challenge2.txt", "a+")
+f.write("\nNew Line. This is exciting!\n")
 f.close()
